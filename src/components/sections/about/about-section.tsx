@@ -42,7 +42,7 @@ export function AboutSection() {
             >
               <GraduationCap className="h-3.5 w-3.5 text-accent-2" />
               <span className="text-white/80">{item.title}</span>
-              <span className="text-muted">· {item.period}</span>
+              
             </div>
           ))}
         </motion.div>
