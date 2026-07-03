@@ -2,35 +2,36 @@ import type { ExperienceItem } from "@/types";
 
 export const experience: ExperienceItem[] = [
   {
-    role: "Freelance Full Stack Developer",
-    org: "Independent",
-    context: "Remote · India",
-    period: "Jan 2023 — Present",
+    role: "Founder & Full Stack Developer",
+    org: "TraceLens AI",
+    context: "Self-initiated Project · Remote",
+    period: "May 2026 — Present",
     bullets: [
-      "Building production-ready web applications for startups, solo founders, and agencies",
-      "Delivered 10+ projects spanning AI tooling, SaaS dashboards, and e-commerce platforms",
-      "Specializing in Next.js, Node.js, and OpenAI integrations end-to-end",
+      "Built an AI-powered platform that analyzes GitHub repositories and generates architecture diagrams, code summaries, and onboarding documentation.",
+      "Developed the application using Next.js, React, Node.js, MongoDB, Tailwind CSS, and LLM APIs.",
+      "Implemented repository analysis, AI-powered insights, and interactive visualizations to improve developer onboarding.",
     ],
   },
   {
-    role: "Web Developer Intern",
-    org: "Tech Startup",
-    context: "Hybrid",
-    period: "Aug 2022 — Dec 2022",
-    bullets: [
-      "Owned React component development for a SaaS analytics dashboard",
-      "Integrated REST APIs and led performance optimization work",
-      "Reduced page load time by 40%, shipping features used by 2,000+ daily active users",
-    ],
-  },
-  {
-    role: "Open Source Contributor",
-    org: "Community",
+    role: "Freelance Web Developer",
+    org: "Self-employed",
     context: "Remote",
-    period: "Jan 2022 — Jul 2022",
+    period: "2025 — Present",
     bullets: [
-      "Contributed to open-source React component libraries and developer tools",
-      "Submitted 20+ pull requests across multiple repositories",
+      "Designed and developed responsive portfolio websites, landing pages, and business websites for clients.",
+      "Built modern full-stack applications using React, Next.js, Express.js, MongoDB, and Tailwind CSS.",
+      "Worked closely with clients to deliver clean UI, responsive design, and optimized web performance.",
+    ],
+  },
+  {
+    role: "Personal Projects & Open Source",
+    org: "Independent",
+    context: "Remote",
+    period: "2024 — Present",
+    bullets: [
+      "Developed multiple full-stack and AI-powered applications to strengthen software engineering skills.",
+      "Solved 200+ data structures and algorithms problems while improving problem-solving and coding efficiency.",
+      "Continuously learning backend development, system design, and Generative AI technologies through hands-on projects.",
     ],
   },
 ];
